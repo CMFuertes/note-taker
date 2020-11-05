@@ -50,7 +50,7 @@ Use this to app to record and delete notes.
 
 ## Tests
 
-Consistent use 'node start' to see if the application is running in order to seek out any errors. 
+Consistent use 'node server.js' to see if the application is running in order to seek out any errors. 
 
 ## Contributing
 
