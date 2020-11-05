@@ -2,7 +2,7 @@
 
 # Notetaker ![NPM](https://img.shields.io/npm/l/sta)
 
-![Screenshot](https://github.com/CMFuertes/Progressive-Budget/blob/main/public/img/Budget%20Screenshot.png?raw=true)
+![Screenshot](https://github.com/CMFuertes/note-taker/blob/master/Notetaker.png?raw=true)
 
 ## Table Of Contents 
 
@@ -39,7 +39,7 @@ https://github.com/CMFuertes/note-taker
 
 Use this app to keep notes. 
 
-Link: https://mysterious-garden-21225.herokuapp.com/notes
+Link: https://mysterious-garden-21225.herokuapp.com/
 ## Installation
 
 In order to edit this application, after cloning the repo, users are to enter the comand "NPM install" in order to obtain all of the required dependecies.
