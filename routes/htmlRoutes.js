@@ -5,3 +5,12 @@ const fs = require("fs");
 router.get("/notes", function(req, res){
     res.json(notesData);
 });
+
+router.post("/notes", function(req, res) {
+    let newNote = req.body
+    newNote.id = Math.round(Math.random()*100000000);
+    notesData.push(newNote);
+    fs.writeFile(".db/db.json", JSON.stringify(notesData),function(err){console.log(err)});
+    console.log(newNote);
+    res.json(notesData);
+});
